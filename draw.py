@@ -4,11 +4,10 @@ import turtle
 
 carlos = turtle.Turtle()
 
-length = 75
-angle = 45
-count = 0
+length = 50
+angle = 40
+numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 
-while count <8:
+for number in numbers:
 	carlos.forward(length)
 	carlos.left(angle)
-	count = count + 1
