@@ -5,18 +5,10 @@ import turtle
 carlos = turtle.Turtle()
 
 length = 75
-angle = 60
+angle = 45
+count = 0
 
-carlos.forward(length)
-carlos.left(angle)
-carlos.forward(length)
-carlos.left(angle)
-carlos.forward(length)
-carlos.left(angle)
-carlos.forward(length)
-carlos.left(angle)
-carlos.forward(length)
-carlos.left(angle)
-carlos.forward(length)
-carlos.left(angle)
-
+while count <8:
+	carlos.forward(length)
+	carlos.left(angle)
+	count = count + 1
